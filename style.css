@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    height: 100%
+}
+
+#container > div {
+    flex-shrink: 0;
+    width: 500px;
+    height: 500px;
+    border-width: .25px;
+    border-color: rgb(211, 211, 211);
+    border-style: dotted;
+}
+
+.div_color {
+    background-color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
